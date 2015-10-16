@@ -1,1 +1,30 @@
 p.panasiuk@mini.pw.edu.pl
+
+Clean Coda - Martin
+
+------------------------------------
+------------------------------------
+------------------------------------
+REPORT 1.
+DATELINE 23.10.2015
+
+p.panasiuk@mini.pw.edu.pl
+
+Thresholding
+
+VERY important, how to find treshold.
+
+------------------------------------
+
+Histogram Expansion / Normalization
+
+pix = (pix - minPix) * (255 / (maxPix - minPix))
+
+Try:
+1) pix = Average of 3 channels
+2) each channel individually.
+
+------------------------------------
+Brightness
+
+Why does the image look odd
