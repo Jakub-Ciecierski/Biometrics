@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Objective}{3}
+\contentsline {section}{\numberline {2}Methodology}{3}
+\contentsline {subsection}{\numberline {2.1}Threshold}{3}
+\contentsline {subsection}{\numberline {2.2}Histogram Expansion}{4}
+\contentsline {subsection}{\numberline {2.3}Brightness}{4}
+\contentsline {section}{\numberline {3}Experiment}{4}
+\contentsline {subsection}{\numberline {3.1}Threshold}{5}
+\contentsline {subsection}{\numberline {3.2}Histogram Expansion}{6}
+\contentsline {subsection}{\numberline {3.3}Brightness}{8}
+\contentsline {section}{\numberline {4}Conclusions}{9}

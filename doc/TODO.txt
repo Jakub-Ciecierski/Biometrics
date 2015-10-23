@@ -1,6 +1,6 @@
 p.panasiuk@mini.pw.edu.pl
 
-Clean Coda - Martin
+Clean Code - Martin
 
 ------------------------------------
 ------------------------------------
