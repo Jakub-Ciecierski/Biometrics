@@ -5,7 +5,6 @@ import processing.common.RGB;
 
 public class Brightness
 {
-
    public static void compute(BufferedImage image, int brightness)
    {
       for (int x = 0; x < image.getWidth(); x++) {
@@ -38,5 +37,4 @@ public class Brightness
            }
       }
    }
-
 }

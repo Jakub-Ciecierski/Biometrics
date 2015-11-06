@@ -1,6 +1,10 @@
 ./src/Main.java
 ./src/processing/HistogramExpension.java
 ./src/processing/Treshold.java
+./src/processing/filters/convolution/LowPass.java
+./src/processing/filters/convolution/SobelFilter.java
+./src/processing/filters/convolution/GaussianFilter.java
+./src/processing/filters/convolution/HighPass.java
 ./src/processing/Grayscale.java
 ./src/processing/common/RGB.java
 ./src/processing/Brightness.java
