@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.10.23)  6 NOV 2015 22:56
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.10.23)  7 NOV 2015 22:18
 entering extended mode
  %&-line parsing enabled.
 **lab_report_1.tex
@@ -182,7 +182,65 @@ Package: subcaption 2008/08/31 v1.0b Adding subcaptions (AR)
 \c@subtable=\count109
 )
 \@float@every@table=\toks23
- (./lab_report_1.aux
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 433.
+(/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps,.gif]
+(grfext)             \AppendGraphicsExtensions on input line 31.
+
+(./lab_report_1.aux
 
 LaTeX Warning: Label `fig:original_img' multiply defined.
 
@@ -218,9 +276,6 @@ LaTeX Warning: Label `fig:gray_img' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig:gray_img' multiply defined.
-
-
-LaTeX Warning: Label `fig:source_img' multiply defined.
 
 
 LaTeX Warning: Label `fig:' multiply defined.
@@ -233,6 +288,90 @@ LaTeX Warning: Label `fig:' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:original_img' multiply defined.
+
+
+LaTeX Warning: Label `fig:gray_img' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:gray_img' multiply defined.
 
 
 LaTeX Warning: Label `fig:original_img' multiply defined.
@@ -273,18 +412,18 @@ LaTeX Warning: Label `sub@fig:gray_img' multiply defined.
 )
 \openout1 = `lab_report_1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count110
@@ -300,11 +439,11 @@ LaTeX Font Info:    ... okay on input line 51.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -319,7 +458,7 @@ port_1.toc)
 \openout3 = `lab_report_1.toc'.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 98--104
+Underfull \hbox (badness 10000) in paragraph at lines 96--102
 
  []
 
@@ -327,125 +466,208 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--104
 File: res/convo.png Graphic file (type png)
  <use res/convo.png>
 [4 <./res/convo.png (PNG copy)>]
-
-LaTeX Warning: Reference `alg_compute_kernel' on page 5 undefined on input line
- 197.
-
 <res/algorithms/compute.png, id=34, 507.8975pt x 287.0725pt>
 File: res/algorithms/compute.png Graphic file (type png)
 
 <use res/algorithms/compute.png>
-<res/algorithms/computeKernel.png, id=35, 668.4975pt x 817.0525pt>
-File: res/algorithms/computeKernel.png Graphic file (type png)
+<res/algorithms/computeKernelColor2.png, id=35, 661.47125pt x 872.25874pt>
+File: res/algorithms/computeKernelColor2.png Graphic file (type png)
 
-<use res/algorithms/computeKernel.png> [5 <./res/algorithms/compute.png (PNG co
-py)>] <res/algorithms/getKernelPoint.png, id=39, 449.68pt x 112.42pt>
+<use res/algorithms/computeKernelColor2.png> [5 <./res/algorithms/compute.png (
+PNG copy)>] <res/algorithms/getKernelPoint.png, id=39, 449.68pt x 112.42pt>
 File: res/algorithms/getKernelPoint.png Graphic file (type png)
 
-<use res/algorithms/getKernelPoint.png> [6 <./res/algorithms/computeKernel.png 
-(PNG copy)> <./res/algorithms/getKernelPoint.png (PNG copy)>]
-<res/high_pass_graph.png, id=43, 687.56876pt x 664.4825pt>
+<use res/algorithms/getKernelPoint.png> [6 <./res/algorithms/computeKernelColor
+2.png (PNG copy)>] <res/high_pass_graph.png, id=43, 687.56876pt x 664.4825pt>
 File: res/high_pass_graph.png Graphic file (type png)
 
 <use res/high_pass_graph.png>
 <res/algorithms/high_pass.png, id=44, 491.8375pt x 365.365pt>
 File: res/algorithms/high_pass.png Graphic file (type png)
 
-<use res/algorithms/high_pass.png> [7 <./res/high_pass_graph.png (PNG copy)>]
-<res/low_pass_graph.png, id=49, 705.63625pt x 643.40375pt>
-File: res/low_pass_graph.png Graphic file (type png)
-
-<use res/low_pass_graph.png>
-<res/algorithms/low_pass.png, id=50, 495.8525pt x 363.3575pt>
-File: res/algorithms/low_pass.png Graphic file (type png)
-
-<use res/algorithms/low_pass.png> [8 <./res/algorithms/high_pass.png (PNG copy)
-> <./res/low_pass_graph.png (PNG copy)>]
-<res/algorithms/gaussian.png, id=54, 476.78125pt x 368.37625pt>
-File: res/algorithms/gaussian.png Graphic file (type png)
-
-<use res/algorithms/gaussian.png> [9 <./res/algorithms/low_pass.png (PNG copy)>
-] <res/algorithms/computeKernel_sobel.png, id=58, 914.41624pt x 607.26875pt>
-File: res/algorithms/computeKernel_sobel.png Graphic file (type png)
-
-<use res/algorithms/computeKernel_sobel.png>
-<res/algorithms/computeNeighbours.png, id=59, 657.45625pt x 748.7975pt>
-File: res/algorithms/computeNeighbours.png Graphic file (type png)
-
-<use res/algorithms/computeNeighbours.png> [10 <./res/algorithms/gaussian.png (
-PNG copy)> <./res/algorithms/computeKernel_sobel.png (PNG copy)>] [11 <./res/al
-gorithms/computeNeighbours.png (PNG copy)>]
-<res/index.jpg, id=66, 501.875pt x 288.07625pt>
+<use res/algorithms/high_pass.png> [7 <./res/algorithms/getKernelPoint.png (PNG
+ copy)> <./res/high_pass_graph.png (PNG copy)>]
+<res/index.jpg, id=49, 501.875pt x 288.07625pt>
 File: res/index.jpg Graphic file (type jpg)
  <use res/index.jpg>
-<res/high_pass.jpg, id=67, 501.875pt x 288.07625pt>
+<res/high_pass.jpg, id=50, 501.875pt x 288.07625pt>
 File: res/high_pass.jpg Graphic file (type jpg)
  <use res/high_pass.jpg>
-File: res/index.jpg Graphic file (type jpg)
+<res/low_pass_graph.png, id=51, 705.63625pt x 643.40375pt>
+File: res/low_pass_graph.png Graphic file (type png)
 
-<use res/index.jpg> <res/low_pass.jpg, id=68, 501.875pt x 288.07625pt>
-File: res/low_pass.jpg Graphic file (type jpg)
+<use res/low_pass_graph.png> [8 <./res/algorithms/high_pass.png (PNG copy)> <./
+res/index.jpg> <./res/high_pass.jpg>]
+<res/algorithms/low_pass.png, id=56, 495.8525pt x 363.3575pt>
+File: res/algorithms/low_pass.png Graphic file (type png)
 
-<use res/low_pass.jpg>
+<use res/algorithms/low_pass.png>
 File: res/index.jpg Graphic file (type jpg)
  <use res/index.jpg>
-<res/gaussian.jpg, id=69, 501.875pt x 288.07625pt>
+<res/low_pass.jpg, id=57, 501.875pt x 288.07625pt>
+File: res/low_pass.jpg Graphic file (type jpg)
+ <use res/low_pass.jpg>
+[9 <./res/low_pass_graph.png (PNG copy)> <./res/algorithms/low_pass.png (PNG co
+py)>] <res/algorithms/gaussian.png, id=61, 476.78125pt x 368.37625pt>
+File: res/algorithms/gaussian.png Graphic file (type png)
+
+<use res/algorithms/gaussian.png>
+File: res/index.jpg Graphic file (type jpg)
+ <use res/index.jpg>
+<res/gaussian.jpg, id=62, 501.875pt x 288.07625pt>
 File: res/gaussian.jpg Graphic file (type jpg)
  <use res/gaussian.jpg>
-[12 <./res/index.jpg> <./res/high_pass.jpg> <./res/low_pass.jpg>]
-File: res/index.jpg Graphic file (type jpg)
+[10 <./res/low_pass.jpg> <./res/algorithms/gaussian.png (PNG copy)>]
+<res/algorithms/computeKernel_sobel.png, id=66, 914.41624pt x 607.26875pt>
+File: res/algorithms/computeKernel_sobel.png Graphic file (type png)
 
-<use res/index.jpg> <res/sobel.jpg, id=74, 501.875pt x 288.07625pt>
-File: res/sobel.jpg Graphic file (type jpg)
+<use res/algorithms/computeKernel_sobel.png> [11 <./res/gaussian.jpg>]
+<res/algorithms/computeNeighbours2.png, id=71, 647.41875pt x 794.97pt>
+File: res/algorithms/computeNeighbours2.png Graphic file (type png)
 
-<use res/sobel.jpg>
+<use res/algorithms/computeNeighbours2.png> [12 <./res/algorithms/computeKernel
+_sobel.png (PNG copy)>]
 File: res/index.jpg Graphic file (type jpg)
  <use res/index.jpg>
-<res/pupil/low_pass_n.jpg, id=75, 501.875pt x 288.07625pt>
-File: res/pupil/low_pass_n.jpg Graphic file (type jpg)
+<res/sobel.jpg, id=75, 501.875pt x 288.07625pt>
+File: res/sobel.jpg Graphic file (type jpg)
+ <use res/sobel.jpg> [13 <./res/algorithms/computeNeighbours2.png (PNG copy)>]
+<res/algorithms/flood_alg.png, id=80, 468.75125pt x 678.535pt>
+File: res/algorithms/flood_alg.png Graphic file (type png)
 
-<use res/pupil/low_pass_n.jpg>
-<res/pupil/low_pass_nn.jpg, id=76, 501.875pt x 288.07625pt>
-File: res/pupil/low_pass_nn.jpg Graphic file (type jpg)
+<use res/algorithms/flood_alg.png> [14 <./res/sobel.jpg>] [15 <./res/algorithms
+/flood_alg.png (PNG copy)>] [16]
+<res/pupil/alg/compute.png, id=90, 735.74875pt x 662.475pt>
+File: res/pupil/alg/compute.png Graphic file (type png)
 
-<use res/pupil/low_pass_nn.jpg>
-File: res/pupil/low_pass_n.jpg Graphic file (type jpg)
- <use res/pupil/low_pass_n.jpg>
-<res/pupil/gray_n.jpg, id=77, 501.875pt x 288.07625pt>
-File: res/pupil/gray_n.jpg Graphic file (type jpg)
+<use res/pupil/alg/compute.png>
+<res/pupil/alg/filterPhase.png, id=91, 472.76625pt x 232.87pt>
+File: res/pupil/alg/filterPhase.png Graphic file (type png)
 
-<use res/pupil/gray_n.jpg> [13 <./res/gaussian.jpg> <./res/sobel.jpg> <./res/pu
-pil/low_pass_n.jpg> <./res/pupil/low_pass_nn.jpg>]
-File: res/pupil/gray_n.jpg Graphic file (type jpg)
- <use res/pupil/gray_n.jpg>
-<res/pupil/thresh_n10.jpg, id=82, 501.875pt x 288.07625pt>
-File: res/pupil/thresh_n10.jpg Graphic file (type jpg)
+<use res/pupil/alg/filterPhase.png> [17 <./res/pupil/alg/compute.png (PNG copy)
+>] <res/pupil/alg/findClosedRegion.png, id=95, 571.13374pt x 496.85625pt>
+File: res/pupil/alg/findClosedRegion.png Graphic file (type png)
 
-<use res/pupil/thresh_n10.jpg>
-File: res/pupil/thresh_n10.jpg Graphic file (type jpg)
- <use res/pupil/thresh_n10.jpg>
-<res/pupil/sobel_n.jpg, id=83, 501.875pt x 288.07625pt>
-File: res/pupil/sobel_n.jpg Graphic file (type jpg)
+<use res/pupil/alg/findClosedRegion.png> [18 <./res/pupil/alg/filterPhase.png (
+PNG copy)>] <res/pupil/alg/findDiameter.png, id=99, 601.24625pt x 255.95625pt>
+File: res/pupil/alg/findDiameter.png Graphic file (type png)
 
-<use res/pupil/sobel_n.jpg>
+<use res/pupil/alg/findDiameter.png> [19 <./res/pupil/alg/findClosedRegion.png 
+(PNG copy)>]
+<res/pupil/alg/findLongestScanLine.png, id=104, 515.9275pt x 934.49126pt>
+File: res/pupil/alg/findLongestScanLine.png Graphic file (type png)
+
+<use res/pupil/alg/findLongestScanLine.png> [20 <./res/pupil/alg/findDiameter.p
+ng (PNG copy)>]
+Overfull \vbox (34.41019pt too high) has occurred while \output is active []
+
+
+[21 <./res/pupil/alg/findLongestScanLine.png (PNG copy)>]
+<res/pupil/alg/draw.png, id=111, 572.1375pt x 464.73625pt>
+File: res/pupil/alg/draw.png Graphic file (type png)
+
+<use res/pupil/alg/draw.png>
+<res/pupil/results/index.jpg, id=112, 501.875pt x 288.07625pt>
+File: res/pupil/results/index.jpg Graphic file (type jpg)
+
+<use res/pupil/results/index.jpg>
+<res/pupil/results/eye3.jpg, id=113, 277.035pt x 183.68625pt>
+File: res/pupil/results/eye3.jpg Graphic file (type jpg)
+
+<use res/pupil/results/eye3.jpg>
+<res/pupil/results/eye4.jpg, id=114, 1167.36125pt x 771.88374pt>
+File: res/pupil/results/eye4.jpg Graphic file (type jpg)
+
+<use res/pupil/results/eye4.jpg> [22 <./res/pupil/alg/draw.png (PNG copy)> <./r
+es/pupil/results/index.jpg> <./res/pupil/results/eye3.jpg> <./res/pupil/results
+/eye4.jpg>]
+File: res/pupil/results/index.jpg Graphic file (type jpg)
+ <use res/pupil/results/index.jpg>
+<res/pupil/results/org_to_low.jpg, id=118, 501.875pt x 288.07625pt>
+File: res/pupil/results/org_to_low.jpg Graphic file (type jpg)
+
+<use res/pupil/results/org_to_low.jpg>
+File: res/pupil/results/org_to_low.jpg Graphic file (type jpg)
+ <use res/pupil/results/org_to_low.jpg>
+<res/pupil/results/low_to_gray.jpg, id=119, 501.875pt x 288.07625pt>
+File: res/pupil/results/low_to_gray.jpg Graphic file (type jpg)
+
+<use res/pupil/results/low_to_gray.jpg>
+File: res/pupil/results/low_to_gray.jpg Graphic file (type jpg)
+
+<use res/pupil/results/low_to_gray.jpg>
+<res/pupil/results/gray_to_low.jpg, id=120, 501.875pt x 288.07625pt>
+File: res/pupil/results/gray_to_low.jpg Graphic file (type jpg)
+
+<use res/pupil/results/gray_to_low.jpg> [23 <./res/pupil/results/org_to_low.jpg
+> <./res/pupil/results/low_to_gray.jpg>]
+File: res/pupil/results/gray_to_low.jpg Graphic file (type jpg)
+
+<use res/pupil/results/gray_to_low.jpg>
+<res/pupil/results/lowgray_to_bin.jpg, id=124, 501.875pt x 288.07625pt>
+File: res/pupil/results/lowgray_to_bin.jpg Graphic file (type jpg)
+
+<use res/pupil/results/lowgray_to_bin.jpg>
+File: res/pupil/results/lowgray_to_bin.jpg Graphic file (type jpg)
+
+<use res/pupil/results/lowgray_to_bin.jpg>
+<res/pupil/results/bin_to_sobel.jpg, id=125, 501.875pt x 288.07625pt>
+File: res/pupil/results/bin_to_sobel.jpg Graphic file (type jpg)
+
+<use res/pupil/results/bin_to_sobel.jpg>
+File: res/pupil/results/bin_to_sobel.jpg Graphic file (type jpg)
+
+<use res/pupil/results/bin_to_sobel.jpg>
+<res/pupil/results/sobel_to_part_result.jpg, id=126, 501.875pt x 288.07625pt>
+File: res/pupil/results/sobel_to_part_result.jpg Graphic file (type jpg)
+
+<use res/pupil/results/sobel_to_part_result.jpg> [24 <./res/pupil/results/gray_
+to_low.jpg> <./res/pupil/results/lowgray_to_bin.jpg> <./res/pupil/results/bin_t
+o_sobel.jpg>]
+File: res/pupil/results/sobel_to_part_result.jpg Graphic file (type jpg)
+ <use res/pupil/results/sobel_to_part_result.jpg>
+<res/pupil/results/part_result_to_final_result.jpg, id=130, 501.875pt x 288.076
+25pt>
+File: res/pupil/results/part_result_to_final_result.jpg Graphic file (type jpg)
+
+ <use res/pupil/results/part_result_to_final_result.jpg>
+File: res/pupil/results/index.jpg Graphic file (type jpg)
+
+<use res/pupil/results/index.jpg>
+File: res/pupil/results/part_result_to_final_result.jpg Graphic file (type jpg)
+
+
+<use res/pupil/results/part_result_to_final_result.jpg>
+File: res/pupil/results/eye3.jpg Graphic file (type jpg)
+
+<use res/pupil/results/eye3.jpg>
+<res/pupil/results/eye3_pupil.jpg, id=131, 277.035pt x 183.68625pt>
+File: res/pupil/results/eye3_pupil.jpg Graphic file (type jpg)
+
+<use res/pupil/results/eye3_pupil.jpg> [25 <./res/pupil/results/sobel_to_part_r
+esult.jpg> <./res/pupil/results/part_result_to_final_result.jpg>]
+File: res/pupil/results/eye4.jpg Graphic file (type jpg)
+
+<use res/pupil/results/eye4.jpg>
+<res/pupil/results/eye4_pupil.jpg, id=136, 1167.36125pt x 771.88374pt>
+File: res/pupil/results/eye4_pupil.jpg Graphic file (type jpg)
+
+<use res/pupil/results/eye4_pupil.jpg>
 No file lab_report_1.bbl.
-[14 <./res/pupil/gray_n.jpg> <./res/pupil/thresh_n10.jpg> <./res/pupil/sobel_n.
-jpg>] (./lab_report_1.aux)
-
-LaTeX Warning: There were undefined references.
-
+[26 <./res/pupil/results/eye3_pupil.jpg> <./res/pupil/results/eye4_pupil.jpg>]
+(./lab_report_1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3552 strings out of 495026
- 50298 string characters out of 1181801
- 113960 words of memory out of 3000000
- 6685 multiletter control sequences out of 15000+50000
+ 3971 strings out of 495026
+ 59131 string characters out of 1181801
+ 116654 words of memory out of 3000000
+ 7056 multiletter control sequences out of 15000+50000
  12449 words of font info for 48 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
- 36i,9n,38p,832b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,9n,38p,929b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
@@ -456,13 +678,14 @@ mi5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
 r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texm
 f-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fo
 nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on lab_report_1.pdf (14 pages, 889255 bytes).
+blic/amsfonts/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on lab_report_1.pdf (26 pages, 1551142 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
+ 193 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

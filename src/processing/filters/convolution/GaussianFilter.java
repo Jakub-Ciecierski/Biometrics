@@ -45,21 +45,24 @@ public class GaussianFilter {
             double relR = 0, relG = 0, relB = 0;
 
             for (int l = sRange; l <= eRange; l++) {
+                int i, j;
                 int relativeColor;
                 double kernelPoint;
 
-                // If kernel matrix fits the image
-                if((x+k > 0 && x+k < width) && (y+l > 0 && y+l < height)){
+                i = x+k < 0 ? (width + (x+k)) : x+k;
+                j = y+l < 0 ? (height + (y+l)) : y+l;
+                i = i >= width ? (i - width) : i;
+                j = j >= height ? (j - height) : j;
 
-                    // Get relative color
-                    relativeColor = imageRead.getRGB(x + k, y + l);
-                    // Get the kernel point
-                    kernelPoint = getKernelPoint(k, l);
+                // Get relative color
+                relativeColor = imageRead.getRGB(i, j);
+                // Get the kernel point
+                kernelPoint = getKernelPoint(k, l);
 
-                    relR += RGB.getR(relativeColor) * kernelPoint;
-                    relG += RGB.getG(relativeColor) * kernelPoint;
-                    relB += RGB.getB(relativeColor) * kernelPoint;
-                }
+                relR += RGB.getR(relativeColor) * kernelPoint;
+                relG += RGB.getG(relativeColor) * kernelPoint;
+                relB += RGB.getB(relativeColor) * kernelPoint;
+
             }
 
             newR += relR;

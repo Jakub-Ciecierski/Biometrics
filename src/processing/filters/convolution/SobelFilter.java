@@ -11,6 +11,7 @@ public class SobelFilter {
     private static int p0, p1, p2, p3, p4, p5, p6, p7;
 
     private static void computeNeighbours(BufferedImage imageRead, int x, int y){
+        int i, j;
         int width, height;
 
         width = imageRead.getWidth();
@@ -18,37 +19,39 @@ public class SobelFilter {
 
         p0 = p1 = p2 = p3 = p4 = p5 = p6 = p7 = 0;
 
-        if((x - 1) > 0 && (y - 1) > 0){
-            p0 = imageRead.getRGB(x - 1, y - 1);
-        }
+        i = (x-1) < 0 ? 0 : x-1;
+        j = (y-1) < 0 ? 0 : y-1;
+        p0 = imageRead.getRGB(i, j);
 
-        if((y - 1) > 0){
-            p1 = imageRead.getRGB(x    , y - 1);
-        }
+        i = x;
+        j = (y-1) < 0 ? 0 : y-1;
+        p1 = imageRead.getRGB(i, j);
 
-        if((x + 1) < width && (y - 1) > 0){
-            p2 = imageRead.getRGB(x + 1, y - 1);
-        }
+        i = (x+1) >= width ? width-1 : x+1;
+        j = (y-1) < 0 ? 0 : y-1;
+        p2 = imageRead.getRGB(i, j);
 
-        if((x + 1) < width && (y + 1) < height){
-            p4 = imageRead.getRGB(x + 1, y + 1);
-        }
+        i = (x+1) >= width ? width - 1 : x+1;
+        j = (y+1) >= height ? height - 1 : y+1;
+        p4 = imageRead.getRGB(i, j);
 
-        if((y + 1) < height){
-            p5 = imageRead.getRGB(x    , y + 1);
-        }
+        i = x;
+        j = (y+1) >= height ? height - 1 : y+1;
+        p5 = imageRead.getRGB(i, j);
 
-        if((x - 1) > 0 && (y + 1) < height){
-            p6 = imageRead.getRGB(x - 1, y + 1);
-        }
 
-        if((x + 1) < width){
-            p3 = imageRead.getRGB(x + 1, y);
-        }
+        i = (x-1) < 0 ? 0 : x-1;
+        j = (y+1) >= height ? height - 1 : y+1;
+        p6 = imageRead.getRGB(i, j);
 
-        if((x - 1) > 0){
-            p7 = imageRead.getRGB(x - 1, y);
-        }
+        i = (x+1) >= width ? width-1 : x+1;
+        j = y;
+        p3 = imageRead.getRGB(i, j);
+
+        i = (x-1) < 0 ? 0 : x-1;
+        j = y;
+        p7 = imageRead.getRGB(i, j);
+
     }
 
     private static int computeKernelColor(BufferedImage imageRead, int x, int y) {

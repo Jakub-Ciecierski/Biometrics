@@ -21,14 +21,21 @@ public class Brightness
                int newR = R + brightness;
                if (newR > RGB.MAX_PIXEL)
                    newR = RGB.MAX_PIXEL;
+               if (newR < RGB.MIN_PIXEL)
+                   newR = RGB.MIN_PIXEL;
 
                int newG = G + brightness;
                if (newG > RGB.MAX_PIXEL)
                    newG = RGB.MAX_PIXEL;
+               if (newG < RGB.MIN_PIXEL)
+                   newG = RGB.MIN_PIXEL;
 
                int newB = B + brightness;
                if (newB > RGB.MAX_PIXEL)
                    newB = RGB.MAX_PIXEL;
+               if (newB < RGB.MIN_PIXEL)
+                   newB = RGB.MIN_PIXEL;
+
 
                // Save
                int rgb = RGB.toRGB(newR, newG, newB);

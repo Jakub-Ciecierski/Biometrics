@@ -110,6 +110,12 @@ public class Main
 
             SobelFilter.compute(image);
         }
+
+        if (test == 7){
+            SmartConsole.Print("Running Finding Pupil");
+
+            Pupil.compute(image);
+        }
     }
 
 //------------------------------------------------------------------------

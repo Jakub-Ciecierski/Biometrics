@@ -5,8 +5,11 @@
 ./src/processing/filters/convolution/SobelFilter.java
 ./src/processing/filters/convolution/GaussianFilter.java
 ./src/processing/filters/convolution/HighPass.java
+./src/processing/FloodFill.java
 ./src/processing/Grayscale.java
 ./src/processing/common/RGB.java
+./src/processing/common/Pixel.java
+./src/processing/Pupil.java
 ./src/processing/Brightness.java
 ./src/processing/Inverse.java
 ./src/util/SmartConsole.java
