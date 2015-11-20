@@ -116,6 +116,11 @@ public class Main
 
             Pupil.compute(image);
         }
+        if (test == 8){
+            SmartConsole.Print("Running KMM");
+
+            KMM.compute(image);
+        }
     }
 
 //------------------------------------------------------------------------
