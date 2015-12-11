@@ -43,6 +43,16 @@ public class Pixel {
     }
 
     @Override
+    public String toString(){
+        String str = "";
+        str += "R: " + R + ", ";
+        str += "G: " + G + ", ";
+        str += "B: " + B;
+
+        return str;
+    }
+
+    @Override
     public boolean equals(Object obj) {
         Pixel p = (Pixel)obj;
 
