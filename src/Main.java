@@ -121,6 +121,12 @@ public class Main
 
             KMM.compute(image);
         }
+        if (test == 9){
+            SmartConsole.Print("Running FeatureExtraction");
+
+            FeatureExtraction.compute(image);
+        }
+
     }
 
 //------------------------------------------------------------------------

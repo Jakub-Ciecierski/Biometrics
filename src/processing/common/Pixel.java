@@ -63,4 +63,20 @@ public class Pixel {
 
         return false;
     }
+
+    public void subtract(Pixel pixel){
+        int newR, newG, newB;
+
+        newR = this.R - pixel.getR();
+        newG = this.G - pixel.getG();
+        newB = this.B - pixel.getB();
+
+        newR = RGB.boundChannelValue(newR);
+        newG = RGB.boundChannelValue(newG);
+        newB = RGB.boundChannelValue(newB);
+
+        this.R = newR;
+        this.G = newG;
+        this.B = newB;
+    }
 }
